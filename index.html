@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohan Aluru — Java Backend Developer and final-year CSE student.">
+  <title>Mohan Aluru — Java Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<header class="nav">
+  <a class="brand" href="#home">M<span>A</span>.</a>
+  <nav class="desktop-nav">
+    <a href="#about">About</a>
+    <a href="#stack">Stack</a>
+    <a href="#projects">Work</a>
+    <a href="#blog">Blog</a>
+  </nav>
+  <div class="nav-right">
+    <a class="resume-pill" href="resume.pdf" target="_blank">Resume <b>↗</b></a>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☼</button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-left reveal">
+      <div class="availability"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
+      <div class="portrait-wrap">
+        <div class="portrait-ring"><img src="profile.jpg" alt="Mohan Aluru"></div>
+        <div class="hand-note">that's me! <span>↙</span></div>
+      </div>
+      <h1>Mohan <span>Aluru.</span></h1>
+      <div class="role">Java Backend Developer <small>·</small> CSE Student</div>
+      <p class="intro">Building with <strong>Java</strong>, <strong>Spring Boot</strong> &amp; <strong>SQL</strong>. I love DSA, backend architecture, and I'm currently learning <mark>Microservices</mark>.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View my work ↓</a>
+        <a class="btn outline" href="resume.pdf" target="_blank">Resume ↗</a>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/mohan-aluru-8186bb398" target="_blank" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/mohan-aluru" target="_blank" aria-label="GitHub">◉</a>
+        <a href="https://leetcode.com/" target="_blank" aria-label="LeetCode">LC</a>
+        <a href="mailto:mohanaluru003@gmail.com" aria-label="Email">@</a>
+      </div>
+    </div>
+
+    <div class="hero-right reveal">
+      <div class="terminal">
+        <div class="terminal-bar"><span></span><span></span><span></span><label>mohan@backend ~/portfolio</label></div>
+        <div class="terminal-body">
+          <p><em>~/portfolio</em> $ whoami</p>
+          <h2>java_developer</h2>
+          <p><em>~/portfolio</em> $ cat focus.txt</p>
+          <div class="terminal-list">
+            <div><b>01</b> Java + DSA</div>
+            <div><b>02</b> Spring Boot + REST APIs</div>
+            <div><b>03</b> SQL + database design</div>
+            <div><b>04</b> Microservices <span class="live">learning...</span></div>
+          </div>
+          <p><em>~/portfolio</em> $ <span class="cursor"></span></p>
+        </div>
+      </div>
+
+      <div class="bento">
+        <div class="bento-card leet-card">
+          <span class="mini-label">PROBLEM SOLVING</span>
+          <strong>250<span>+</span></strong>
+          <p>LeetCode problems solved</p>
+          <a href="https://leetcode.com/" target="_blank">view profile ↗</a>
+        </div>
+        <div class="bento-card cgpa-card">
+          <span class="mini-label">ACADEMICS</span>
+          <strong>8.98</strong>
+          <p>CGPA · B.Tech CSE</p>
+        </div>
+        <div class="bento-card learn-card">
+          <span class="mini-label">NOW LEARNING</span>
+          <strong>Microservices</strong>
+          <p>Distributed systems · APIs · architecture</p>
+          <div class="pulse"><i></i> in progress</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker"><div>JAVA <span>✦</span> SPRING BOOT <span>✦</span> DSA <span>✦</span> SQL <span>✦</span> MICROSERVICES <span>✦</span> JAVA <span>✦</span> SPRING BOOT <span>✦</span> DSA <span>✦</span> SQL <span>✦</span> MICROSERVICES <span>✦</span></div></div>
+
+  <section id="about" class="section reveal">
+    <div class="section-title"><span>01</span><h2>About <em>me.</em></h2></div>
+    <div class="about-grid">
+      <div class="about-big">I like building things that are <span>simple on the outside</span> and thoughtfully engineered underneath.</div>
+      <div class="about-copy">
+        <p>I'm a final-year Computer Science Engineering student focused on backend development and problem solving. My main toolkit is Java, Spring Boot, SQL and Data Structures &amp; Algorithms.</p>
+        <p>I've solved 250+ problems on LeetCode and I'm currently going deeper into microservices and distributed backend architecture.</p>
+        <div class="fact-row"><div><b>2027</b><span>Graduation</span></div><div><b>Java</b><span>Primary language</span></div><div><b>250+</b><span>DSA problems</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section reveal">
+    <div class="section-title"><span>02</span><h2>Tech <em>stack.</em></h2></div>
+    <div class="stack-layout">
+      <div class="stack-intro"><p>My core focus is backend engineering. I use frontend tools when a project needs a complete interface.</p><div class="stack-status"><i></i> Building + learning every day</div></div>
+      <div class="skill-grid">
+        <div class="skill"><span>☕</span><b>Java</b><small>OOP · Collections · DSA</small></div>
+        <div class="skill"><span>◉</span><b>Spring Boot</b><small>REST · Security · JPA</small></div>
+        <div class="skill"><span>▦</span><b>SQL / MySQL</b><small>Queries · CRUD · data</small></div>
+        <div class="skill"><span>◇</span><b>Hibernate</b><small>ORM · persistence</small></div>
+        <div class="skill"><span>⚛</span><b>React.js</b><small>UI · frontend</small></div>
+        <div class="skill learning-skill"><span>⌘</span><b>Microservices</b><small>Currently learning</small><em>NEW</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <div class="section-title"><span>03</span><h2>Selected <em>work.</em></h2></div>
+    <div class="project project-main">
+      <div class="project-number">01 / FEATURED</div>
+      <div class="project-content">
+        <div class="project-heading"><span>FULL-STACK · JAVA</span><span>SPRING BOOT</span></div>
+        <h3>Smart Campus Event<br><em>Management System</em></h3>
+        <p>A full-stack campus event platform for authentication, event creation, registration and participant management.</p>
+        <div class="chips"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>Hibernate</span><span>JPA</span><span>MySQL</span><span>React.js</span></div>
+      </div>
+      <div class="project-side"><h4>Built around</h4><div class="feature-line">Role-based access <b>→</b></div><div class="feature-line">Event management <b>→</b></div><div class="feature-line">Registration flow <b>→</b></div><div class="feature-line">Database integration <b>→</b></div></div>
+    </div>
+    <div class="project">
+      <div class="project-number">02</div>
+      <div class="project-content">
+        <div class="project-heading"><span>IOT · EMBEDDED</span><span>ESP32</span></div>
+        <h3>Smart Safety Monitoring<br><em>System</em></h3>
+        <p>An ESP32-based safety system for pedal-type kayaks and small boats, monitoring tilt, leakage, speed and GPS location.</p>
+        <div class="chips"><span>ESP32</span><span>Sensors</span><span>GPS</span><span>Emergency alerts</span></div>
+      </div>
+      <div class="project-side"><h4>Highlights</h4><div class="feature-line">Real-time monitoring <b>→</b></div><div class="feature-line">GPS tracking <b>→</b></div><div class="feature-line">Emergency alerts <b>→</b></div></div>
+    </div>
+  </section>
+
+  <section id="blog" class="section reveal">
+    <div class="section-title"><span>04</span><h2>Notes from the <em>build log.</em></h2></div>
+    <div class="blog-intro"><p>I write short technical notes about things I'm learning — no textbook energy, just practical takeaways.</p><span class="mono">/blog / ideas / lessons</span></div>
+    <div class="blog-grid">
+      <article class="blog-card" data-post="dsa">
+        <div class="blog-art"><span>01</span><div class="brackets">[ ]</div></div>
+        <div class="blog-meta">DSA · 06 MIN READ</div>
+        <h3>How I approach a new DSA problem</h3>
+        <p>From brute force to patterns, constraints and an optimized Java solution.</p>
+        <button>Read note ↗</button>
+      </article>
+      <article class="blog-card" data-post="spring">
+        <div class="blog-art spring"><span>02</span><div class="brackets">&lt;/&gt;</div></div>
+        <div class="blog-meta">SPRING BOOT · 07 MIN READ</div>
+        <h3>What happens inside a REST API?</h3>
+        <p>A beginner-friendly mental model for controllers, services, repositories and databases.</p>
+        <button>Read note ↗</button>
+      </article>
+      <article class="blog-card" data-post="microservices">
+        <div class="blog-art micro"><span>03</span><div class="brackets">∞</div></div>
+        <div class="blog-meta">LEARNING · 05 MIN READ</div>
+        <h3>My first steps into microservices</h3>
+        <p>What changed in my mental model when a single application became multiple services.</p>
+        <button>Read note ↗</button>
+      </article>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-title"><span>05</span><h2>Wins &amp; <em>milestones.</em></h2></div>
+    <div class="timeline">
+      <div class="timeline-item"><span>🏆</span><div><b>Winner · Code Debugging</b><p>EDZIAL 2K26 — SIMATS</p></div><small>2026</small></div>
+      <div class="timeline-item"><span>🏆</span><div><b>Winner · Tech Scavenger</b><p>EDZIAL 2K26 — SIMATS</p></div><small>2026</small></div>
+      <div class="timeline-item"><span>🥈</span><div><b>Runner-up · Bug Detection</b><p>SVCET</p></div><small>2026</small></div>
+    </div>
+  </section>
+
+  <section class="contact reveal" id="contact">
+    <div class="contact-orb"></div>
+    <span class="section-kicker">06 / SAY HELLO</span>
+    <h2>Have an opportunity?<br><em>Let's talk.</em></h2>
+    <p>I'm looking for software development opportunities where I can contribute, learn and grow as a backend engineer.</p>
+    <div class="contact-buttons">
+      <a class="btn primary" href="mailto:mohanaluru003@gmail.com">mohanaluru003@gmail.com ↗</a>
+      <a class="btn outline" href="https://www.linkedin.com/in/mohan-aluru-8186bb398" target="_blank">LinkedIn ↗</a>
+      <a class="btn outline" href="https://github.com/mohan-aluru" target="_blank">GitHub ↗</a>
+    </div>
+  </section>
+</main>
+
+<footer><span>© 2026 Mohan Aluru</span><span>Java · Spring Boot · DSA · SQL</span></footer>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button class="close" id="closeModal">×</button>
+    <div class="modal-meta" id="modalMeta"></div>
+    <h2 id="modalTitle"></h2>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
